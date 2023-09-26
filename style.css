@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+
+.calculator {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#display {
+    width: 200px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.history {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#history-list {
+    list-style: none;
+    padding: 0;
+}
+
+#history-list li {
+    margin: 5px 0;
+}
