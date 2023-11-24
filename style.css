@@ -28,8 +28,10 @@ button {
 }
 
 .history {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 20px;
+
 }
 
 #history-list {
